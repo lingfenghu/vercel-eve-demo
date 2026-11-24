@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="diffusers" />
+          <option value="accelerate" />
+          <option value="numpy" />
+          <option value="tensorflow" />
+          <option value="tensorboard" />
+          <option value="opencv-python" />
+          <option value="soundfile" />
+          <option value="transformers" />
+          <option value="huggingface_hub" />
+          <option value="librosa" />
+          <option value="einops" />
+          <option value="gradio" />
+          <option value="gdown" />
+          <option value="requests" />
+          <option value="imageio" />
+          <option value="omegaconf" />
+          <option value="ffmpeg-python" />
+          <option value="moviepy" />
+          <option value="fastapi" />
+          <option value="uvicorn" />
+          <option value="pydantic" />
+          <option value="httpx" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="boto3" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
